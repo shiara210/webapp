@@ -1,1 +1,0 @@
-<?php header( 'Location: /R5.html') ;  ?>
