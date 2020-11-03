@@ -1,1 +1,1 @@
-<?php header( 'Location: /Design Thinking.html') ;  ?>
+<?php include_once("Design Thinking.html") ?>
