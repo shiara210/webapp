@@ -1,0 +1,306 @@
+*{
+	box-sizing: border-box;
+}
+
+
+body {
+	font-family: verdana;
+	background-color:#1A1A1D; 
+	background-image: #1A1A1D;
+	padding: 10px;
+	opacity: 0.3px;		
+}
+
+.header {
+  padding: 200px;
+  text-align: center;
+  background: #342b38;
+}
+
+.header h1 {
+  font-size: 60px;
+  font-family: 'Berkshire Swash';
+  color: #bbf1c8;
+  float:left;
+  padding-top: -100px;
+  line-height: 0.1px;
+}
+
+img{
+  width: 300px;
+  height: 355px;
+  float: right;
+  border-radius: 150px;
+  margin-top: -380px;
+  margin-right:250px;
+  opacity: 0.9;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 355px;
+  width: 300px;
+  opacity: 0;
+  transition: .3s ease;
+  background-color:#bbf1c8;
+  border-radius: 150px;
+  margin-top: 38px;
+  margin-left:780px;
+  float: left;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: #382933;
+  font-family:'Comic Neue';
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.header p {
+  font-size: 25px;
+  font-family: 'Advent Pro';
+  color: #bbf1c8;
+  float: left;
+  padding-top: 70px;
+  margin-left: -300px;
+}
+
+li { color : white;
+     font-size: 25px;
+}
+
+nav {
+  list-style-type: none;
+  margin: 10px;
+  margin-top: 15px;
+  padding-left: 100px;
+  background-color: #f7eeee;
+}
+nav li {
+	color: #cc66cc;
+	font-family: 'Advent Pro';
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: inline;
+  color: #ffffff;
+  text-align: center;
+  padding: 15px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #ce9797;
+  text-decoration: none;
+}
+
+
+.leftcolumn {   
+  float: left;
+  width: 900px;
+  margin-top: 100px;
+  margin-left: 30px;
+  background-color: #342b38
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 300px;
+  height: 940px;
+  background-color: #342b38;
+  padding: 10px;
+  margin-top: 110px;
+}
+
+.rightcolumn h3{
+  text-align: center;
+
+}
+
+div.card p{
+  text-indent: 50px;
+  font-family: 'Arima Madurai';
+  font-size: 20px;
+
+}
+
+div.card h2{
+  font-family: 'Advent Pro';
+  color: #342b38;
+  font-size: 30px;
+}
+
+div.card h5{
+  font-family: 'advent pro';
+  color: #342b38;
+  font-size: 16px;
+}
+
+div.card h3{
+  font-family: 'advent pro';
+  color: #bbf1c8;
+  font-size: 16px;
+}
+
+.card {
+  background-color: #bbf1c8;
+  padding: 10px;
+  margin-top: 25px;
+  height: 900px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+input[type=text], select, textarea {
+  width: 250PX;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 10px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input [type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #bbf1c8;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #80bdab;
+  padding: 0px;
+}
+
+
+.footer {
+  background-color: #80bdab;
+  text-align: center;
+  padding: 60px;
+  margin-top: 80px;
+}
+
+.footer p {
+  font-family: 'Comic Neue';
+  font-size: 18px;
+  float: left;
+  line-height: 0.12;
+  color: #382933;
+  margin-top: 40px;
+  margin-left: -250px;
+
+}
+.footer u i {
+  font-family: 'Comic Neue';
+  font-size: 15px;
+  float: right;
+  line-height: 0.12;
+  color: #382933;
+  margin-top: 60px;
+  margin-right: -850px;
+
+}
+.footer li {
+  position: absolute;
+  top: 150px;
+  left: 450px;
+  padding: 0px;
+  margin: 0px;
+  trabsform: translate (-50px, -50px);
+  display: flex;
+  margin-top: 1490px;
+}
+
+.footer li ul {
+  list-style: none;
+  margin: 0 15px;
+}
+.footer li ul .fab {
+  font-size: 30px;
+  line-height: 27px;
+  transition: 6px;
+  color: #000;
+  margin-left: -5px;
+
+}
+.footer li ul .fab:hover {
+  color: #fff;
+}
+.footer li ul a {
+  position: relative;
+  display: block;
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  background-color: #fff;
+  text-align: center;
+  transition: 6px;
+  box-shadow: 0 5px 4px rgba(0,0,0, .5);
+}
+
+.footer li ul a:hover {
+  transform: translate(0, -10px);
+}
+.footer li ul:nth-child(1) a:hover { 
+  background-color: #3b5999;
+}
+.footer li ul:nth-child(2) a:hover { 
+  background-color: #e4405f;
+}
+.footer li ul:nth-child(3) a:hover { 
+  background-color: #0077B5;
+}
+.footer li ul:nth-child(4) a:hover { 
+  background-color: #131418;
+}
+	
+	
+
+
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+	
+
