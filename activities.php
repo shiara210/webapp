@@ -1,1 +1,1 @@
-<?php header( 'Location: /ACTIVITIES.html') ;  ?>
+<?php include_once( "ACTIVITIES.html") ?>
